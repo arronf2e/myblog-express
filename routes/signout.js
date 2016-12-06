@@ -1,14 +1,14 @@
-var express = require('express');
-var router = express.Router();
+/**
+ * Created by Arron on 16/12/6.
+ */
+const express = require('express');
+const router = express.Router();
 
 var checkLogin = require('../middlewares/check').checkLogin;
 
-// GET /signout 登出
-router.get('/', checkLogin, function(req, res, next) {
-  // 清空seesion
-  req.session.user = null;
-  req.flash('success', '登出成功');
-  res.redirect('/posts');
+// GET  /signout 登出
+router.get('/', checkLogin, function (req,res,next) {
+    res.send(req.flash());
 });
 
 module.exports = router;
