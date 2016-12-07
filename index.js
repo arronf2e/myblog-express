@@ -6,6 +6,8 @@ const flash = require('connect-flash');
 const config = require('config-lite');
 const routes = require('./routes');
 const pkg = require('./package');
+const winston = require('winston');
+const expressWinston = require('express-winston');
 const app = express();
 
 // 设置模板目录
