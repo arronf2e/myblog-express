@@ -1,11 +1,11 @@
 {
-  "name": "一个前端",
+  "name": "An fe",
   "version": "1.0.0",
   "description": "hello world",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'"
+    "start": "NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'blog'"
   },
   "keywords": [],
   "author": "",
