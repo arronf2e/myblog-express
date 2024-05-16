@@ -1,5 +1,5 @@
 {
-  "name": "Anfe",
+  "name": "blog-express",
   "version": "1.0.0",
   "description": "hello world",
   "main": "index.js",
@@ -19,8 +19,6 @@
     "start": "NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'myblog'"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "config-lite": "^1.5.0",
     "connect-flash": "^0.1.1",
