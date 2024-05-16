@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "hello world",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arronf2e/myblog-express"
+  },
+  "author": "Arron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arronf2e/myblog-express/issues"
+  },
+  "homepage": "https://github.com/arronf2e/myblog-express#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "supervisor --harmony index",
